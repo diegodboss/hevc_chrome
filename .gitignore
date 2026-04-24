@@ -1,0 +1,28 @@
+node_modules/
+dist/
+out/
+.DS_Store
+*.local
+
+# WASM decoder files (downloaded via scripts/download-decoders.mjs)
+src/renderer/public/decoder/
+src/renderer/public/ll-video.js
+
+# Generated test streams
+test-streams/
+
+# Electron build output
+build/
+*.blockmap
+*.zip
+*.dmg
+*.AppImage
+*.snap
+*.deb
+*.exe
+latest*.yml
+latest.yml
+
+# Editor
+.vscode/
+.idea/
